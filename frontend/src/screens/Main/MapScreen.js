@@ -15,6 +15,7 @@ import {
 } from 'react-native';
 import MapView, { Marker, Circle } from 'react-native-maps';
 import * as Location from 'expo-location';
+import { LinearGradient } from 'expo-linear-gradient';
 import api from '../../config/api';
 import useAuthStore from '../../store/authStore';
 import Icon from 'react-native-vector-icons/Ionicons';

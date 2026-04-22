@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, ActivityIndicator } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, ActivityIndicator, Image } from 'react-native';
 import useAuthStore from '../../store/authStore';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, SHADOWS, TYPOGRAPHY, SPACING, SIZES } from '../../theme/designSystem';

@@ -1,0 +1,162 @@
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/community/RecordingLibrary.js
+  12:27  warning  'SPACING' is defined but never used                                                                                 no-unused-vars
+  15:10  warning  'LinearGradient' is defined but never used                                                                          no-unused-vars
+  23:6   warning  React Hook useEffect has a missing dependency: 'fetchRecordings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/ui/FlameMatchOverlay.js
+  16:27  warning  'TYPOGRAPHY' is defined but never used                                                                                                                                            no-unused-vars
+  18:16  warning  'height' is assigned a value but never used                                                                                                                                       no-unused-vars
+  54:6   warning  React Hook useEffect has missing dependencies: 'leftAvatarX', 'opacity', 'rightAvatarX', 'scale', 'sound', and 'textOpacity'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/ui/GlassCard.js
+  4:10  warning  'COLORS' is defined but never used  no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/ui/PremiumInput.js
+   4:30  warning  'SHADOWS' is defined but never used                     no-unused-vars
+  28:9   warning  'borderBottomWidth' is assigned a value but never used  no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/ui/ShimmerSkeleton.js
+  4:10  warning  'COLORS' is defined but never used  no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/ui/SoundWaveVisualizer.js
+   8:3  warning  'withSequence' is defined but never used                                                                                 no-unused-vars
+  28:6  warning  React Hook useEffect has missing dependencies: 'h1', 'h2', and 'h3'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/ui/VibePlayer.js
+  11:27  warning  'SPACING' is defined but never used                                                                                                        no-unused-vars
+  21:9   warning  'width' is assigned a value but never used                                                                                                 no-unused-vars
+  39:6   warning  React Hook useEffect has missing dependencies: 'loadAudio', 'sound', and 'translateY'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/components/ui/VibrantButton.js
+  4:36  warning  'TYPOGRAPHY' is defined but never used  no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Auth/LoginScreen.js
+   6:3   warning  'ActivityIndicator' is defined but never used                                                                                  no-unused-vars
+  17:18  warning  'SPACING' is defined but never used                                                                                            no-unused-vars
+  17:27  warning  'SIZES' is defined but never used                                                                                              no-unused-vars
+  17:34  warning  'TYPOGRAPHY' is defined but never used                                                                                         no-unused-vars
+  56:6   warning  React Hook useEffect has missing dependencies: 'fadeAnim' and 'slideAnim'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  86:22  warning  'message' is assigned a value but never used                                                                                   no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Auth/ProfileSetupScreen.js
+   2:22  warning  'TextInput' is defined but never used          no-unused-vars
+   2:75  warning  'ActivityIndicator' is defined but never used  no-unused-vars
+   6:27  warning  'TYPOGRAPHY' is defined but never used         no-unused-vars
+   6:39  warning  'SPACING' is defined but never used            no-unused-vars
+  10:10  warning  'LinearGradient' is defined but never used     no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/ChatListScreen.js
+   7:18  warning  'SHADOWS' is defined but never used                                                                                            no-unused-vars
+   7:27  warning  'TYPOGRAPHY' is defined but never used                                                                                         no-unused-vars
+   7:39  warning  'SPACING' is defined but never used                                                                                            no-unused-vars
+   8:8   warning  'GlassCard' is defined but never used                                                                                          no-unused-vars
+  20:6   warning  React Hook useEffect has missing dependencies: 'user?._id' and 'user?.id'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/ChatRoomScreen.js
+   3:8   warning  Using exported name 'io' as identifier for default import                                                                                       import/no-named-as-default
+   9:27  warning  'TYPOGRAPHY' is defined but never used                                                                                                          no-unused-vars
+   9:39  warning  'SPACING' is defined but never used                                                                                                             no-unused-vars
+  10:8   warning  'GlassCard' is defined but never used                                                                                                           no-unused-vars
+  68:18  warning  'e' is defined but never used. Allowed unused caught errors must match /^_/u                                                                    no-unused-vars
+  94:6   warning  React Hook useEffect has missing dependencies: 'scrollToBottom', 'user._id', and 'user.id'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/CommunityDetailScreen.js
+   15:8   warning  Using exported name 'io' as identifier for default import                                                                                       import/no-named-as-default
+   20:27  warning  'TYPOGRAPHY' is defined but never used                                                                                                          no-unused-vars
+   20:39  warning  'SPACING' is defined but never used                                                                                                             no-unused-vars
+   21:8   warning  'GlassCard' is defined but never used                                                                                                           no-unused-vars
+   36:21  warning  'setCommunity' is assigned a value but never used                                                                                               no-unused-vars
+   57:6   warning  React Hook useEffect has a missing dependency: 'pulseValue'. Either include it or remove the dependency array                                   react-hooks/exhaustive-deps
+  114:6   warning  React Hook useEffect has missing dependencies: 'scrollToBottom', 'user._id', and 'user.id'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/CommunityListScreen.js
+  10:3   warning  'Image' is defined but never used          no-unused-vars
+  15:27  warning  'SPACING' is defined but never used        no-unused-vars
+  15:36  warning  'SIZES' is defined but never used          no-unused-vars
+  20:11  warning  'user' is assigned a value but never used  no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/CreateCommunityScreen.js
+   16:27  warning  'SPACING' is defined but never used        no-unused-vars
+   16:36  warning  'TYPOGRAPHY' is defined but never used     no-unused-vars
+   21:11  warning  'user' is assigned a value but never used  no-unused-vars
+  175:25  error    'ActivityIndicator' is not defined         react/jsx-no-undef
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/DiscoverScreen.js
+   9:3   warning  'ActivityIndicator' is defined but never used                                                                     no-unused-vars
+  13:3   warning  'Platform' is defined but never used                                                                              no-unused-vars
+  20:18  warning  'SPACING' is defined but never used                                                                               no-unused-vars
+  20:27  warning  'SIZES' is defined but never used                                                                                 no-unused-vars
+  20:34  warning  'TYPOGRAPHY' is defined but never used                                                                            no-unused-vars
+  36:6   warning  React Hook useEffect has a missing dependency: 'fetchProfiles'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/MapScreen.js
+   21:27  warning  'TYPOGRAPHY' is defined but never used                                                                                                          no-unused-vars
+   21:39  warning  'SPACING' is defined but never used                                                                                                             no-unused-vars
+   24:16  warning  'SCREEN_WIDTH' is assigned a value but never used                                                                                               no-unused-vars
+   24:38  warning  'SCREEN_HEIGHT' is assigned a value but never used                                                                                              no-unused-vars
+   86:6   warning  React Hook useEffect has a missing dependency: 'pulseAnim'. Either include it or remove the dependency array                                    react-hooks/exhaustive-deps
+  110:6   warning  React Hook useEffect has missing dependencies: 'isMapVisible', 'user?._id', and 'user?.id'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  122:6   warning  React Hook useEffect has missing dependencies: 'fetchNearby', 'user?._id', and 'user?.id'. Either include them or remove the dependency array   react-hooks/exhaustive-deps
+  173:16  warning  'e' is defined but never used. Allowed unused caught errors must match /^_/u                                                                    no-unused-vars
+  259:21  error    'LinearGradient' is not defined                                                                                                                 react/jsx-no-undef
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/MapScreen.web.js
+    1:38  warning  'useRef' is defined but never used                                                                                                              no-unused-vars
+    2:61  warning  'TouchableOpacity' is defined but never used                                                                                                    no-unused-vars
+    7:8   warning  'Icon' is defined but never used                                                                                                                no-unused-vars
+    8:27  warning  'TYPOGRAPHY' is defined but never used                                                                                                          no-unused-vars
+   10:10  warning  'LinearGradient' is defined but never used                                                                                                      no-unused-vars
+   52:6   warning  React Hook useEffect has missing dependencies: 'isMapVisible', 'user?._id', and 'user?.id'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   64:6   warning  React Hook useEffect has missing dependencies: 'fetchNearby', 'user?._id', and 'user?.id'. Either include them or remove the dependency array   react-hooks/exhaustive-deps
+  119:16  warning  'e' is defined but never used. Allowed unused caught errors must match /^_/u                                                                    no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/ProfileScreen.js
+   5:27  warning  'TYPOGRAPHY' is defined but never used  no-unused-vars
+   5:39  warning  'SPACING' is defined but never used     no-unused-vars
+   5:48  warning  'SIZES' is defined but never used       no-unused-vars
+  84:17  error    'Image' is not defined                  react/jsx-no-undef
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/RandomCallScreen.js
+   2:52  warning  'ActivityIndicator' is defined but never used                                                                            no-unused-vars
+   4:8   warning  Using exported name 'io' as identifier for default import                                                                import/no-named-as-default
+   7:27  warning  'TYPOGRAPHY' is defined but never used                                                                                   no-unused-vars
+   7:39  warning  'SPACING' is defined but never used                                                                                      no-unused-vars
+  73:6   warning  React Hook useEffect has a missing dependency: 'initiateWebRTCConfig'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/RandomCallScreen.web.js
+   2:52  warning  'ActivityIndicator' is defined but never used                                                                            no-unused-vars
+   4:8   warning  Using exported name 'io' as identifier for default import                                                                import/no-named-as-default
+   7:27  warning  'TYPOGRAPHY' is defined but never used                                                                                   no-unused-vars
+  77:6   warning  React Hook useEffect has a missing dependency: 'initiateWebRTCConfig'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/RankingsScreen.js
+   2:70  warning  'Platform' is defined but never used                                                                              no-unused-vars
+   6:27  warning  'TYPOGRAPHY' is defined but never used                                                                            no-unused-vars
+   6:39  warning  'SPACING' is defined but never used                                                                               no-unused-vars
+  22:6   warning  React Hook useEffect has a missing dependency: 'fetchRankings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/ReelsScreen.js
+  2:100  warning  'Platform' is defined but never used      no-unused-vars
+  6:8    warning  'useAuthStore' is defined but never used  no-unused-vars
+  7:27   warning  'TYPOGRAPHY' is defined but never used    no-unused-vars
+  8:8    warning  'GlassCard' is defined but never used     no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/ReelsScreen.web.js
+  2:100  warning  'Platform' is defined but never used      no-unused-vars
+  6:8    warning  'useAuthStore' is defined but never used  no-unused-vars
+  7:27   warning  'TYPOGRAPHY' is defined but never used    no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/ReelsUploadScreen.js
+  2:52   warning  'ActivityIndicator' is defined but never used  no-unused-vars
+  2:110  warning  'TextInput' is defined but never used          no-unused-vars
+  8:27   warning  'TYPOGRAPHY' is defined but never used         no-unused-vars
+  8:39   warning  'SPACING' is defined but never used            no-unused-vars
+
+/Users/siraparapukarthik/Desktop/flayra/frontend/src/screens/Main/ReelsUploadScreen.web.js
+  2:52   warning  'ActivityIndicator' is defined but never used  no-unused-vars
+  2:110  warning  'TextInput' is defined but never used          no-unused-vars
+  8:27   warning  'TYPOGRAPHY' is defined but never used         no-unused-vars
+
+✖ 107 problems (3 errors, 104 warnings)
+
