@@ -1,0 +1,26 @@
+# Node & Dependencies
+node_modules/
+dist/
+build/
+.expo/
+
+# Environment & Logs
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Project Metadata & Temp Files
+implementation_plan.md
+task.md
+walkthrough.md
+research_notes.md
+.gemini/
+.ai/
+checkpoint/
+*.ai_temp
