@@ -1,10 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ActivityIndicator, Platform } from 'react-native';
 import { RTCViewMock as RTCView } from '../../mocks/WebMocks';
-const RTCPeerConnection = class { onicecandidate=null; ontrack=null; addTrack(){}; createOffer(){return {sdp:''}}; createAnswer(){return {sdp:''}}; setLocalDescription(){}; setRemoteDescription(){}; addIceCandidate(){}; close(){}; };
-const RTCIceCandidate = class {};
-const RTCSessionDescription = class {};
-const mediaDevices = { enumerateDevices: async ()=>[], getUserMedia: async ()=>({toURL:()=>'', getTracks:()=>[], getVideoTracks:()=>[{_switchCamera:()=>{}}]}) };
 import io from 'socket.io-client';
 import useAuthStore from '../../store/authStore';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -12,6 +8,10 @@ import { COLORS, SHADOWS, TYPOGRAPHY } from '../../theme/designSystem';
 import GlassCard from '../../components/ui/GlassCard';
 import { LinearGradient } from 'expo-linear-gradient';
 import VibrantButton from '../../components/ui/VibrantButton';
+const RTCPeerConnection = class { onicecandidate=null; ontrack=null; addTrack(){}; createOffer(){return {sdp:''}}; createAnswer(){return {sdp:''}}; setLocalDescription(){}; setRemoteDescription(){}; addIceCandidate(){}; close(){}; };
+const RTCIceCandidate = class {};
+const RTCSessionDescription = class {};
+const mediaDevices = { enumerateDevices: async ()=>[], getUserMedia: async ()=>({toURL:()=>'', getTracks:()=>[], getVideoTracks:()=>[{_switchCamera:()=>{}}]}) };
 
 const BASE_URL = Platform.OS === 'android' ? 'http://10.0.2.2:5001' : 'http://localhost:5001';
 

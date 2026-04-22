@@ -278,7 +278,7 @@ export default function DiscoverScreen({ navigation }) {
           <View style={styles.emptyIconCircle}>
             <Icon name="planet-outline" size={80} color={COLORS.primary} />
           </View>
-          <Text style={styles.emptyTitle}>You've seen everyone!</Text>
+          <Text style={styles.emptyTitle}>You&apos;ve seen everyone!</Text>
           <Text style={styles.emptySubtitle}>Check back later for more campus connections.</Text>
           <TouchableOpacity style={styles.refreshButton} onPress={fetchProfiles}>
              <Text style={styles.refreshButtonText}>Refresh Search</Text>

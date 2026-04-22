@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { BlurView } from 'expo-blur';
 import { Platform } from 'react-native';
-import { COLORS, SHADOWS } from '../theme/designSystem';
+import { COLORS, SHADOWS , SIZES } from '../theme/designSystem';
 
 import DiscoverScreen from '../screens/Main/DiscoverScreen';
 import MapScreen from '../screens/Main/MapScreen';
@@ -15,7 +15,6 @@ import RankingsScreen from '../screens/Main/RankingsScreen';
 import ReelsUploadScreen from '../screens/Main/ReelsUploadScreen';
 import RandomCallScreen from '../screens/Main/RandomCallScreen';
 import CommunityStackNavigator from './CommunityStackNavigator';
-import { SIZES } from '../theme/designSystem';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();

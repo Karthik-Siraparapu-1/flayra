@@ -8,12 +8,12 @@ import * as Notifications from 'expo-notifications';
 import * as Device from 'expo-device';
 import * as SplashScreen from 'expo-splash-screen';
 
-SplashScreen.preventAutoHideAsync();
-
 
 import AuthNavigator from './src/navigation/AuthNavigator';
 import MainTabNavigator from './src/navigation/MainTabNavigator';
 import useAuthStore from './src/store/authStore';
+
+SplashScreen.preventAutoHideAsync();
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({

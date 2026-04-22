@@ -155,7 +155,7 @@ export default function CreateCommunityScreen({ navigation }) {
           <View style={styles.switchRow}>
             <View>
                <Text style={styles.switchLabel}>Record Stage</Text>
-               <Text style={styles.switchSublabel}>Save discussions for "Recorded Vibes" tab</Text>
+               <Text style={styles.switchSublabel}>Save discussions for &quot;Recorded Vibes&quot; tab</Text>
             </View>
             <TouchableOpacity 
               onPress={() => setFormData({...formData, voiceCfg: {...formData.voiceCfg, isRecordable: !formData.voiceCfg.isRecordable}})}

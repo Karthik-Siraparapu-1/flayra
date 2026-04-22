@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, Alert, KeyboardAvoidingView, Platform, TextInput } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, Alert, KeyboardAvoidingView, Platform, TextInput , ScrollView } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import { VideoMock as Video } from '../../mocks/WebMocks';
 import { CLOUDINARY_VIDEO_UPLOAD_URL, CLOUDINARY_UPLOAD_PRESET } from '../../config/cloudinary';
@@ -10,7 +10,6 @@ import GlassCard from '../../components/ui/GlassCard';
 import VibrantButton from '../../components/ui/VibrantButton';
 import PremiumInput from '../../components/ui/PremiumInput';
 import { LinearGradient } from 'expo-linear-gradient';
-import { ScrollView } from 'react-native';
 
 export default function ReelsUploadScreen({ navigation }) {
   const { user } = useAuthStore();
