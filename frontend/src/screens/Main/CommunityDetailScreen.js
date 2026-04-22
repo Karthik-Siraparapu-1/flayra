@@ -9,7 +9,8 @@ import {
   KeyboardAvoidingView, 
   Platform, 
   ActivityIndicator, 
-  Image 
+  Image,
+  ScrollView
 } from 'react-native';
 import io from 'socket.io-client';
 import api from '../../config/api';
@@ -91,17 +92,17 @@ export default function CommunityDetailScreen({ route, navigation }) {
        }
     });
 
-    socket.current.on('voice_stage_started', (data) => {
+    socketRef.current.on('voice_stage_started', (data) => {
        setVoiceActive(true);
        setIsRecording(data.isRecording);
     });
 
-    socket.current.on('voice_stage_ended', () => {
+    socketRef.current.on('voice_stage_ended', () => {
        setVoiceActive(false);
        setSpeakers([]);
     });
 
-    socket.current.on('voice_stage_sync', (data) => {
+    socketRef.current.on('voice_stage_sync', (data) => {
        setVoiceActive(true);
        setSpeakers(data.speakers || []);
        setIsRecording(data.isRecording);
