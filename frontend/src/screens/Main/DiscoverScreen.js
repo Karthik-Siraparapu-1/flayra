@@ -1,3 +1,4 @@
+// Flayra Discover Screen - Premium Social Discovery
 import React, { useEffect, useState, useRef } from 'react';
 import { 
   View, 
